@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bonette's Choperia & Petiscaria</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#111;
+    color:#fff;
+}
+
+header{
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)),
+    url("https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1f?auto=format&fit=crop&w=1600&q=80");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+header h1{
+    font-size:55px;
+    color:#FFD700;
+}
+
+header p{
+    margin:20px 0;
+    font-size:20px;
+}
+
+.btn{
+    display:inline-block;
+    padding:15px 35px;
+    background:#FFD700;
+    color:#000;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+section{
+    padding:70px 10%;
+}
+
+h2{
+    text-align:center;
+    color:#FFD700;
+    margin-bottom:40px;
+    font-size:36px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#1d1d1d;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h3{
+    color:#FFD700;
+    margin-bottom:15px;
+}
+
+.info{
+    background:#181818;
+}
+
+.info p{
+    margin:12px 0;
+    font-size:18px;
+}
+
+footer{
+    background:#000;
+    text-align:center;
+    padding:25px;
+    color:#aaa;
+}
+
+iframe{
+    width:100%;
+    height:350px;
+    border:none;
+    border-radius:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div>
+<h1>🍻 Bonette's Choperia & Petiscaria</h1>
+<p>Ambiente Familiar • Chopp Gelado • Petiscos • Feijoada aos Sábados</p>
+
+<a class="btn" href="https://wa.me/5545999887118" target="_blank">
+Reservar pelo WhatsApp
+</a>
+</div>
+</header>
+
+<section>
+
+<h2>Quem Somos</h2>
+
+<p style="text-align:center;max-width:900px;margin:auto;font-size:18px;line-height:1.8">
+A Bonette's Choperia & Petiscaria oferece um ambiente aconchegante e familiar,
+com atendimento de qualidade, cerveja sempre bem gelada, petiscos deliciosos,
+lanches e a tradicional feijoada aos sábados.
+</p>
+
+</section>
+
+<section>
+
+<h2>Destaques do Cardápio</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🍺 Chopp Gelado</h3>
+<p>Chopp sempre na temperatura ideal.</p>
+</div>
+
+<div class="card">
+<h3>🍖 Petiscos</h3>
+<p>Porções variadas para compartilhar.</p>
+</div>
+
+<div class="card">
+<h3>🥘 Feijoada</h3>
+<p>Tradicional feijoada aos sábados.</p>
+</div>
+
+<div class="card">
+<h3>🍔 Lanches</h3>
+<p>Lanches preparados na hora.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="info">
+
+<h2>Informações</h2>
+
+<p><strong>⭐ Avaliação:</strong> 4,9/5 (Google)</p>
+
+<p><strong>💰 Faixa de Preço:</strong> R$ 40 a R$ 60 por pessoa</p>
+
+<p><strong>📍 Endereço:</strong><br>
+Rua Augusto Formighieri, 68<br>
+Jardim Santa Maria<br>
+Toledo - PR
+</p>
+
+<p><strong>📞 Telefone:</strong>
+(45) 99988-7118
+</p>
+
+<p><strong>🕒 Horário:</strong>
+Aberto até 00:00
+</p>
+
+</section>
+
+<section>
+
+<h2>Localização</h2>
+
+<iframe
+src="https://maps.google.com/maps?q=Rua%20Augusto%20Formighieri%2068%20Toledo%20PR&t=&z=15&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+</section>
+
+<footer>
+
+<h3>Bonette's Choperia & Petiscaria</h3>
+
+<p>🍻 O melhor happy hour de Toledo - PR</p>
+
+<p>WhatsApp: (45) 99988-7118</p>
+
+<p>© 2026 - Todos os direitos reservados.</p>
+
+</footer>
+
+</body>
+</html>

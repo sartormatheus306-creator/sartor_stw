@@ -1,0 +1,19 @@
+body{
+    margin:0;
+    overflow:hidden;
+    background:#111;
+    font-family:Arial;
+}
+
+canvas{
+    display:block;
+    background:#222;
+}
+
+#hud{
+    position:absolute;
+    top:10px;
+    left:10px;
+    color:white;
+    font-size:22px;
+}
